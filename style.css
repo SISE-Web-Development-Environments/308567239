@@ -1,7 +1,177 @@
 #menu
 {
 	position: fixed;
+	color: white;
 	width: 100%;
-	height: 35px;
+	height: 60px;
+	background: black;
+}
+
+h1
+{
+	font-size: 24px;
+	color:green;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h5
+{
+	font-size: 16px;
+	color:black;
+	font-weight: bold;
+	text-align: center;
+}
+
+a.menuItem {
+	background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 2px;
+	cursor: pointer;
+	vertical-align: middle;
+
+  }
+
+  a.menuItem:hover {
+	background-color: green;
+	border-radius: 10px;
+	color: white;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 2px;
+	cursor: pointer;
+	vertical-align: middle;
+  }
+
+#content
+{
+	width: 100%;
 	background: white;
 }
+
+#left
+{
+	text-align: center;
+	float: left;
+	width: 33%;
+	padding: 5px;
+}
+
+#right
+{
+	text-align: center;
+	float: right;
+	width: 33%;
+	padding: 5px;
+}
+
+#playlist
+{
+	text-align: center;
+}
+
+textarea {
+	width: 350px;
+	height: 150px;
+  }
+
+  input[type=text] {
+	width: 350px;
+  }
+
+button {
+		background-color: white;
+	border-radius: 10px;
+	color: black;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 2px;
+	cursor: pointer;
+  }
+
+  button:hover {
+	background-color: green;
+	border-radius: 10px;
+	color: white;
+	padding: 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px 2px;
+	cursor: pointer;
+  }
+
+  #alert {
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10px;
+	width: 500px;
+	line-height: 14px; 
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+  }
+
+  .hidden
+  {
+	  display:none;
+  }
+  
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+
+  .closebtn:hover {
+	color: black;
+  }
+
+  #qaTable
+  {
+	border-spacing: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	border-width: 3px;
+	border-color: red;
+  }
+
+  #qaCol
+  {
+	vertical-align: top;
+	border: 3px solid rgb(1, 112, 19);
+	border-left: 3px solid rgb(1, 112, 19);
+	border-right: 3px solid rgb(1, 112, 19);
+	border-top-left-radius: 40px;	
+	border-top-right-radius: 40px;	
+	border-bottom-right-radius: 40px;	
+	background-color: rgb(163, 218, 163);
+	padding:0px 10px;
+  }
+
+  h4
+  {
+	  text-align: center;
+	  font-size: 18px;
+	  font-weight: bold;
+	  text-decoration: underline;
+  }
